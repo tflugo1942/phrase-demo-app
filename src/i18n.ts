@@ -24,8 +24,8 @@ export const initializeI18next = async () => {
 
   }).use(new PhraseInContextEditorPostProcessor({
     phraseEnabled: true,
-    projectId: '00000000000000004158e0858d2fa45c',
-    accountId: '0bed59e5',
+    projectId: '4feb54bef7a429dd19c266241d61b249',
+    accountId: '0cfcf7ed5f0a729a69653cb043aa81f4',
     useOldICE: false,
   }));
   await i18nextInstance.init();
